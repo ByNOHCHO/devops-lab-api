@@ -4,7 +4,7 @@ export function createApp() {
   const app = express();
 
   app.get("/", (_req, res) => {
-    res.json({ ok: true, service: "devops-lab-api" });
+    res.json({ ok: true, service: "devops-lab-api123" });
   });
 
   app.get("/health", (_req, res) => {
