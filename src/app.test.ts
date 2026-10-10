@@ -15,6 +15,6 @@ describe("api", () => {
     const res = await request(app).get("/");
     expect(res.status).toBe(200);
     expect(res.body.ok).toBe(true);
-    expect(res.body.service).toBe("devops-lab-api");
+    expect(res.body.service).toBe("devops-lab-api123");
   });
 });
